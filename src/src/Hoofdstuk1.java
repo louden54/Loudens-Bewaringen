@@ -3,7 +3,7 @@ package src;
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opdracht1 extends Applet {
+public class Hoofdstuk1 extends Applet {
 
     public void init() {
         setBackground(Color.blue);
