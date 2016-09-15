@@ -7,8 +7,8 @@ import java.applet.*;
 public class Hoofdstuk406 extends Applet{ public void init(){setBackground(Color.gray);}
     public void paint(Graphics g){
         g.setColor(Color.black);
-        g.drawRect(30,20,50,240);
-        g.fillRect(30,20,50,240);
+        g.drawRect(20,20,50,230);
+        g.fillRect(20,20,50,230);
         g.setColor(Color.black);
          g.drawRect(20,20,70,190);
          g.fillRect(20,20,70,190);
