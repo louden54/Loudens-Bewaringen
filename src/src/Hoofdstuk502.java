@@ -6,11 +6,15 @@ import java.awt.*;
 
 
 public class Hoofdstuk502 extends Applet {
-    int V, J, H;
+    int V, J, H, Johangewicht,Valeriegewicht,Henkgewicht;
     public void init() {
         V=40;
         H=80;
-        J=100;
+        J=120;
+        Johangewicht=200;
+        Valeriegewicht=90;
+        Henkgewicht=170;
+
     }
 
     public void paint(Graphics g) {
@@ -23,13 +27,13 @@ public class Hoofdstuk502 extends Applet {
         g.drawString("0", 5 ,225);
         g.drawLine(20,220, 140,220);
         g.setColor(Color.blue);
-        g.fillRect(35,130,20,90);
-        g.drawString("V", 40 , 240);
-        g.setColor(Color.red);
-        g.drawString("J", 80 , 240);
-        g.fillRect(75, 20 ,20, 200);
+        g.fillRect(35,130,20,Valeriegewicht);
+        g.drawString("V", V , 240);
         g.setColor(Color.green);
-        g.fillRect(115 , 50, 20, 170);
-        g.drawString("H", 120 , 240);
+        g.drawString("H", H , 240);
+        g.fillRect(75, 20 ,20, Johangewicht);
+        g.setColor(Color.red);
+        g.fillRect(115 , 50, 20, Henkgewicht);
+        g.drawString("J", J , 240);
     }
 }
