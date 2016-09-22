@@ -1,4 +1,4 @@
-package src;
+package Hoofdstuk6;
 
 import java.awt.*;
 import java.applet.*;

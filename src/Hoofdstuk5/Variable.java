@@ -1,10 +1,10 @@
-package src;
+package Hoofdstuk5;
 
 import java.awt.*;
 import java.applet.*;
 
 
-public class Variabelen extends Applet {
+public class Variable extends Applet {
     Color backgroundcolor;
     Color TextColor;
     int getal1;

@@ -1,4 +1,4 @@
-package src;
+package Hoofdstuk6;
 
 import java.awt.*;
 import java.applet.*;
@@ -7,7 +7,7 @@ import java.applet.*;
 public class Hoofdstuk603 extends Applet {
     int a;
     int b;
-
+int c;
 
     int uitkomst;
     int uitkomst2;
@@ -18,7 +18,6 @@ public class Hoofdstuk603 extends Applet {
         b = 2000000000;
 
         uitkomst = (a + b);
-
     }
 
     public void paint(Graphics g) {

@@ -1,10 +1,10 @@
-package src;
+package Hoofdstuk6;
 
 import java.awt.*;
 import java.applet.*;
 
 
-public class Hoofdstuk6praktijk extends Applet {
+public class Hoofdstuk6praktijkopdracht extends Applet {
     double a ,b ,c, d , e , uitkomst;
 
     public void init() {
