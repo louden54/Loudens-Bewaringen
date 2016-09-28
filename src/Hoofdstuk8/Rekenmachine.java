@@ -13,6 +13,7 @@ public class Rekenmachine extends Applet {
     Button deelknop;
     Button minknop;
     Button plusknop;
+    Button reset;
 
     double getal1;
     double getal2;
@@ -47,6 +48,11 @@ public class Rekenmachine extends Applet {
         PlusKnopListener pkl = new PlusKnopListener();
         add(plusknop);
         plusknop.addActionListener(pkl);
+
+        reset = new Button("Reset");
+        ResetKnopListener rkl = new ResetKnopListener();
+        add (reset);
+        reset.addActionListener(rkl);
     }
 
 
@@ -97,7 +103,13 @@ public class Rekenmachine extends Applet {
             vak2.setText("" );
         }
     }
+    class ResetKnopListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
 
-
+            vak1.setText(" ");
+            vak2.setText(" ");
+        }
+    }
 
 }
