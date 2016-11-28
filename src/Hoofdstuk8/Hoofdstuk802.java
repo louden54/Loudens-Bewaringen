@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.applet.*;
 
-@SuppressWarnings("serial")
+
 public class Hoofdstuk802 extends Applet
 {
     int man, vrouw, manl, vrouwl;
